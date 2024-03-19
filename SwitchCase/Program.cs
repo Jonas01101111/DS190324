@@ -11,43 +11,45 @@ namespace SwitchCase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Insira o primeiro número:");
-                int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Insira o segundo número:");
-                int n2 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Insira a operação(+,-,*,/)");
-                string op = Console.ReadLine();
-            int res = 0;
-            switch (op)
+            while (true)
             {
-                case "+":
-                    res = n1 + n2;
-                    Console.WriteLine("Resultado:" + res);
-                    break;
-                case "-":
-                    res = n1 - n2;
-                    Console.WriteLine("Resultado:" + res);
-                    break;
-                case "*":
-                    res = n1 * n2;
-                    Console.WriteLine("Resultado:" + res);
-                    break;
-                case "/":
-                    res = n1 / n2;
-                    Console.WriteLine("Resultado:"+res);
-                    break;
-                default:
-                    Console.WriteLine("Opção Inválida");
-                    break;
+
+
+                Console.WriteLine("Insira o primeiro número:");
+                double n1 = double.Parse(Console.ReadLine());
+                Console.WriteLine("Insira o segundo número:");
+                double n2 = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Insira a operação(+,-,*,/)");
+                string op = Console.ReadLine();
+                double res = 0;
+                switch (op)
+                {
+                    case "+":
+                        res = n1 + n2;
+                        Console.WriteLine("Resultado:" + res);
+                        break;
+                    case "-":
+                        res = n1 - n2;
+                        Console.WriteLine("Resultado:" + res);
+                        break;
+                    case "*":
+                        res = n1 * n2;
+                        Console.WriteLine("Resultado:" + res);
+                        break;
+                    case "/":
+                        res = n1 / n2;
+                        Console.WriteLine("Resultado:" + res);
+                        break;
+                    default:
+                        Console.WriteLine("Opção Inválida");
+                        break;
+                }
+
+
+                Console.ReadKey();
+                Console.Clear();
             }
-
-
-
-
-
-
-            Console.ReadKey();
         }
 
 
