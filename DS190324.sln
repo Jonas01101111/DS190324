@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\Sw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaCalculo", "AreaCalculo\AreaCalculo.csproj", "{F891E80E-FDD2-416F-904E-F46C8905E0E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalarioSwCs", "SalarioSwCs\SalarioSwCs.csproj", "{83F86677-D931-47DB-8B82-5EEE9458856D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F891E80E-FDD2-416F-904E-F46C8905E0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F891E80E-FDD2-416F-904E-F46C8905E0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F891E80E-FDD2-416F-904E-F46C8905E0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F86677-D931-47DB-8B82-5EEE9458856D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F86677-D931-47DB-8B82-5EEE9458856D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F86677-D931-47DB-8B82-5EEE9458856D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F86677-D931-47DB-8B82-5EEE9458856D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
